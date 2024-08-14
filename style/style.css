@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+                
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.menu-icon{
+    color: white;
+    display: none;
+}
+.header{
+    background-color: rgba(17, 17, 17, 1);
+    width: 100%;
+}
+.brand{
+    font-style: italic;
+    color: rgba(230, 83, 60, 1);
+    font-weight: bold;
+    font-size: 30px;
+}
+.up{
+    margin: 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ul{
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 39px;
+    padding: 4px;
+}
+.list{
+    list-style: none;
+    margin-right: 47px;
+}
+.arc{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 1);
+}
+.btn{
+    background-color: rgba(230, 83, 60, 1);
+    font-size: 15px;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 46px;
+}
+.hero{
+    margin: 0px 150px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.h1{
+    font-size: 100px;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 1);
+}
+#font{
+    font-style: italic;
+    font-family: 'Miama', sans-serif;
+    font-optical-sizing: auto;
+    font-size: 100px;
+    font-weight: 900;
+    font-style: normal;
+}
+.para{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0px;
+}
+.btn-2{
+    color: white;
+    font-size: 15px;
+    border-radius: 42px;
+    padding: 16px 40px;
+    margin-right: 10px;
+    background-color: rgba(230, 83, 60, 1);
+}
+.btn-3{
+    color: white;
+    font-size: 15px;
+    border-radius: 42px;
+    padding: 16px 40px;
+    gap: 10px;
+    background-color: black;
+    border-color: white;
+}
+.box-1{
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px;
+    width: 150px;
+    height: 80px;
+    text-align: center;
+    padding: auto;
+    margin-left: 250px;
+    margin-top: -400px;
+}
+.para-2{
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    margin: 0px 0px;
+}
+.box-2{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px;
+    width: 150px;
+    height: 80px;
+    text-align: center;
+    align-items: center;
+    padding: auto;
+    margin-top: 200px;
+}
+.ball{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: rgba(230, 83, 60, 1);
+}
+.para-3{
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    margin: 0px 0px;
+}
+.hero-3{
+    background-color: black;
+    margin-top: 0px;
+}
+.up-2{
+    margin: auto;
+    text-align: center;
+    background-color: black;
+}
+.head{
+    line-height: 100px;
+    color: white;
+    font-size: 48px;
+    font-weight: 900px;
+    margin-bottom: 0px;
+}
+.img-set{
+    display: flex;
+    margin: 50px 150px
+}
+.img-set1{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+.img-shape{
+    border-radius: 50%;
+}
+.h4{
+    color: white;
+    font-size: 18px;
+    font-weight: 600px;
+    margin-bottom: 3px;
+}
+.banner{
+    display: flex;
+    margin: 50px 150px;
+    background-color: rgba(34, 34, 34, 1);
+    border: 1px;
+    border-radius: 18px;
+    padding: 30px;
+    gap: 50px;
+    margin-bottom: 0px;
+}
+.run{
+    height: 280px;
+    width: 300px;
+    border-radius: 18px;
+    object-fit: none;
+    object-position: 67% 30%;
+}
+.h2{
+    color: white;
+    font-size: 28px;
+    font-weight: 900;
+}
+table{
+    border-collapse: collapse;
+    margin-top: 40px;
+}
+td, th{
+    color: rgba(255, 255, 255, 0.5);
+    border: 1px solid white;
+    padding: 15px 15px;
+}
+th{
+    color: white;
+}
+.banner-2{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 150px;
+}
+.form{
+    margin-top: 50px;
+}
+input{
+    width: 200px;
+    height: 20px;
+    padding: 12px 40px 12px 20px;
+    border-radius: 8px;
+    opacity: 0px;
+}
+.opt1{
+    width: 262px;
+    height: 48px;
+    padding: 12px 40px 12px 20px;
+    border-radius: 8px;
+    opacity: 0px;
+}
+.opt2{
+    width: 525px;
+    height: 48px;
+    padding: 12px 40px 12px 20px;
+    border-radius: 8px;
+    opacity: 0px;  
+}
+.banner-3{
+    background-color: black;
+}
+.picture{
+    margin: 100px 270px;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px;
+    border-radius: 20px;
+    padding: 30px;
+}
+.text-position{
+    margin-left: 10px;
+    margin-top: -50px;
+}
+.img-6{
+    height: 260px;
+    width: 300px;
+    border-radius: 18px;
+}
+.trainer{
+    color: white;
+    font-size: 20px;
+    font-weight: 900px;
+    margin: 0px;
+}
+.img-gym{
+    margin: 50px 150px;
+    width: 1200px;
+    height: 500px;
+    border-radius: 20px;
+}
+.active{
+    margin:0px 150px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 150px;
+}
+.foot-h1{
+    font-size: 70px;
+    font-weight: 800;
+    font-style: italic;
+    color: rgba(230, 83, 60, 1);
+    margin-bottom: 20px;
+}
+.foot-h2{
+    color: white;
+    font-size: 28px;
+    font-weight: 900;
+    margin-left: 35px;
+}
+.list2{
+    list-style: none;
+}
+.arc2{
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+.foot-line{
+    margin: 30px 150px;
+    height: 2px;
+    border: 2px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.foot-para{
+    font-size: 20px;
+    font-weight: 400px;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 576px) {
+    .menu-icon{
+        display: block;
+        margin-right: 50px;
+    }
+    .up{
+        margin: 0px 20px;
+    }
+    .ul{
+        display: none;
+    }
+    .hero{
+        flex-direction: column;
+        margin: 0px 20px;
+    }
+    .h1{
+        font-size: 36px;
+        font-weight: 900px;
+    }
+    #font{
+        font-size: 36px;
+        font-weight: 900px;  
+    }
+    .head{
+        font-size: 32px;
+        font-weight: 900px;
+        margin-bottom: 0px;
+    }
+    .img-set{
+        flex-direction: column;
+        justify-content: center;
+        margin: 0px 20px;
+    }
+    .banner{
+        flex-direction: column;
+        margin: 50px 10px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .run{
+        object-fit: fill;
+        width: 100%;
+    }
+    .banner-2{
+        flex-direction: column;
+        margin: 0px 20px;
+    }
+    input{
+        width: 100px;
+     }
+     .opt1{
+         width: 162px;
+     }
+     .opt2{
+         width: 325px;
+     }
+    .picture{
+        grid-template-columns: repeat(1,1fr);
+        margin: 0px 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-gym{
+        margin: auto;
+        width: 100%;
+    }
+    .active{
+        margin: 0px 20px;
+        flex-direction: column;
+    }
+    .foot{
+        margin: 0px 20px;
+        flex-direction: column;
+    }
+    .foot-line{
+        margin: 0px 20px;
+    }
+    .foot-para{
+        text-align: start;
+        margin-left: 20px;
+    }
+}    
