@@ -4,4 +4,4 @@ This is a simple and responsive Fitness Web Page built using HTML and CSS. It sh
 
 ## Live Link
 
-[https://lijanahmmed.github.io/Assignment-02/](https://lijanahmmed.github.io/Assignment-02/)
+[https://lijanahmmed.github.io/Fitness/](https://lijanahmmed.github.io/Fitness/)
